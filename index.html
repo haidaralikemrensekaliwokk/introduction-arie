@@ -169,18 +169,18 @@ footer{text-align:center;padding:30px;color:var(--mut);border-top:1px solid var(
   <div class="gal">
     <figure data-c="kuliah"><img loading="lazy" src="img/foto1.jpg" alt="Bersama teman di kelas"><figcaption>Bersama teman di kelas</figcaption></figure>
     <figure data-c="kuliah"><img loading="lazy" src="img/foto2.jpg" alt="Semangat kuliah"><figcaption>Semangat kuliah</figcaption></figure>
-    <figure data-c="kuliah"><img loading="lazy" src="img/foto3.jpg" alt="Ngoding bareng"><figcaption>Ngoding bareng</figcaption></figure>
+    <figure data-c="kuliah"><img loading="lazy" src="img/foto3.jpg" alt="praktikum jaringan komputer"><figcaption>Ngoding bareng</figcaption></figure>
     <figure data-c="kuliah"><img loading="lazy" src="img/foto4.jpg" alt="Istirahat sejenak"><figcaption>Istirahat sejenak</figcaption></figure>
     <figure data-c="kuliah"><img loading="lazy" src="img/foto5.jpg" alt="Teman seperjuangan"><figcaption>Teman seperjuangan</figcaption></figure>
     <figure data-c="kuliah"><img loading="lazy" src="img/foto6.jpg" alt="Kebersamaan"><figcaption>Kebersamaan</figcaption></figure>
-    <figure data-c="organisasi"><img loading="lazy" src="img/foto7.jpg" alt="Keluarga HIMPROTE"><figcaption>Keluarga HIMPROTE</figcaption></figure>
-    <figure data-c="organisasi"><img loading="lazy" src="img/foto8.jpg" alt="Di depan Dekanat FMIPA"><figcaption>Di depan Dekanat FMIPA</figcaption></figure>
+    <figure data-c="organisasi"><img loading="lazy" src="img/foto7.jpg" alt="pendelegasian"><figcaption>Keluarga HIMPROTE</figcaption></figure>
+    <figure data-c="organisasi"><img loading="lazy" src="img/foto8.jpg" alt="STAF MUDA DEP D"><figcaption>Di depan Dekanat FMIPA</figcaption></figure>
     <figure data-c="organisasi"><img loading="lazy" src="img/foto9.jpg" alt="ID Staf Muda Dept. D"><figcaption>ID Staf Muda Dept. D</figcaption></figure>
     <figure data-c="organisasi"><img loading="lazy" src="img/foto10.jpg" alt="Kegiatan organisasi"><figcaption>Kegiatan organisasi</figcaption></figure>
     <figure data-c="organisasi"><img loading="lazy" src="img/foto12.jpg" alt="Acara bersama"><figcaption>Acara bersama</figcaption></figure>
     <figure data-c="hiking"><img loading="lazy" src="img/foto13.jpg" alt="Menyusuri hutan"><figcaption>Menyusuri hutan</figcaption></figure>
     <figure data-c="hiking"><img loading="lazy" src="img/foto14.jpg" alt="Santai di sungai"><figcaption>Santai di sungai</figcaption></figure>
-    <figure data-c="hiking"><img loading="lazy" src="img/foto15.jpg" alt="Puncak bersama tim"><figcaption>Puncak bersama tim</figcaption></figure>
+    <figure data-c="hiking"><img loading="lazy" src="img/foto15.jpg" alt="Puncak bareng"><figcaption>Puncak bersama tim</figcaption></figure>
     <figure data-c="hiking"><img loading="lazy" src="img/foto16.jpg" alt="Gerbang Gunung Prau"><figcaption>Gerbang Gunung Prau</figcaption></figure>
     <figure data-c="hiking"><img loading="lazy" src="img/foto17.jpg" alt="Di jalur pendakian"><figcaption>Di jalur pendakian</figcaption></figure>
     <figure data-c="hiking"><img loading="lazy" src="img/foto18.jpg" alt="Sunrise Camp Prau"><figcaption>Sunrise Camp Prau</figcaption></figure>
@@ -212,7 +212,7 @@ const jam=new Date().getHours();
 $('#salam').textContent=jam<11?'Selamat pagi':jam<15?'Selamat siang':jam<18?'Selamat sore':'Selamat malam';
 
 // efek mengetik
-const kata=["Mahasiswa PTIK UNNES","Calon Web Developer","Hiker & Petualang","Staf Muda HIMPROTE"];
+const kata=["Mahasiswa PTIK UNNES","Calon Web Developer","Petualang","Staf Muda HIMPROTE"];
 let i=0,j=0,del=false;
 (function t(){const k=kata[i];$('#ty').textContent=k.slice(0,j);
   if(!del&&j++===k.length){del=true;return setTimeout(t,1400)}
